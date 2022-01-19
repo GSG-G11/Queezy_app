@@ -47,4 +47,41 @@ hr {
 .start {
   background-color: #b0dbee;
   flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.vector-section {
+  object-fit: cover;
+  width: 450px;
+  height: 450px;
+}
+.user-name-input {
+  width: 225px;
+  height: 44px;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+}
+.start-button {
+  width: 225px;
+  height: 44px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: #f9c448;
+  border: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.fa-trophy {
+  font-size: 40px;
+  color: #f9c448;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
 }
