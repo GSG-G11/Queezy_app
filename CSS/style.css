@@ -107,7 +107,6 @@ hr {
 .question-container {
   font-weight: bold;
   background-color: #f9c448;
-
   padding: 12px;
   font-size: 18px;
   border-radius: 8px;
@@ -115,7 +114,6 @@ hr {
 .answer-container {
   border: solid black 2px;
   border-radius: 8px;
-  /* width: 440px; */
   margin-top: 15px;
   padding-left: 15px;
   line-height: 3;
@@ -133,6 +131,51 @@ hr {
   cursor: pointer;
 }
 .next-button-section {
+  display: flex;
+  align-self: flex-end;
+}
+
+/*leaderboard pag */
+.leaderboard-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 20px;
+}
+.leaderboard {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.player-container {
+  font-weight: bold;
+  background-color: #f9c448;
+  font-size: 19px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.back-home-button {
+  width: 225px;
+  height: 44px;
+  border-radius: 8px;
+  margin-top: 30px;
+  background-color: #1a5271;
+  border: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  color: #c6dbe4;
+}
+.back-home-button-section {
   display: flex;
   align-self: flex-end;
 }
