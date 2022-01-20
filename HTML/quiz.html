@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Queezy App</title>
+    <!-- link CSS file -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- link font awwsome icons -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- link Ciro font from google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Mea+Culpa&family=Palanquin+Dark:wght@400;500;600&family=Parisienne&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&family=Rowdies:wght@300&family=Sarabun:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="main question-section">
+        <p class="question-counter">
+          # Question <span class="counter">1</span> /10
+        </p>
+        <div class="question-container">__ is your name ?</div>
+        <div class="answer-container">
+          <input type="radio" id="answer-1" name="answers" value="Answer-1" />
+          <label for="html">Answer-1</label><br />
+          <input type="radio" id="answer-2" name="answers" value="Answer-2" />
+          <label for="css">Answer-2</label><br />
+          <input type="radio" id="answer-3" name="answers" value="Answer-3" />
+          <label for="javascript">Answer-3</label><br />
+          <input type="radio" id="answer-4" name="answers" value="Answer-4" />
+          <label for="html">Answer-4</label><br />
+        </div>
+        <div class="next-button-section">
+          <button class="next-button">Next</button>
+        </div>
+      </section>
+      <section class="start">
+        <i class="fas fa-trophy"></i>
+        <img
+          class="vector-section"
+          src="../Assets/images/vector-1.png"
+          alt="vector"
+        />
+      </section>
+    </div>
+  </body>
+  <script type="module" src="../JS/quiz.js"></script>
+</html>
