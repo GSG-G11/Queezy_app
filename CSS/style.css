@@ -17,7 +17,11 @@
   color: #f9c448;
   font-size: 80px;
 }
-
+.rank-board {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .app-description {
   text-align: center;
   font-size: 35px;
