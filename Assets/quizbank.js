@@ -1,10 +1,5 @@
 export const questions = [
   {
-    question: "_____ her name Eliza? No, _____ .",
-    answers: ["is / from", " isn’t / from", "isn’t / in ", "aren’t / in"],
-    answer: "Is / it isn't",
-  },
-  {
     question: "I ... tennis every Sunday morning.",
     answers: ["playing", "play", " am playing", " am play"],
     answer: "play",
