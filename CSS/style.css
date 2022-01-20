@@ -86,3 +86,53 @@ hr {
   right: 20px;
   cursor: pointer;
 }
+
+/* quiz page */
+
+.question-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 20px;
+}
+
+.question-counter {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 39px;
+  padding-bottom: 15px;
+}
+.question-container {
+  font-weight: bold;
+  background-color: #f9c448;
+
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.answer-container {
+  border: solid black 2px;
+  border-radius: 8px;
+  /* width: 440px; */
+  margin-top: 15px;
+  padding-left: 15px;
+  line-height: 3;
+}
+.next-button {
+  width: 225px;
+  height: 44px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: #f9c448;
+  border: none;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+}
+.next-button-section {
+  display: flex;
+  align-self: flex-end;
+}
