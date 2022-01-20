@@ -9,5 +9,5 @@ startButton.addEventListener("click", function () {
   //read the object from local storage
   let usersName = localStorage.getItem("userName");
   // to move quiz page
-  window.location = "../HTML/quiz.html";
+  window.location = "/HTML/quiz.html";
 });
